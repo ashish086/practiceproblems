@@ -1,0 +1,8 @@
+Title,Description,Color
+START,"Input list numslist, compute n = len(numslist)","light_blue"
+Loop i,"For i in range(n-1): Try removing adjacent pair (i, i+1)","yellow"
+Create new,"new = [] (empty list to store remaining elements)","light_green"
+Inner loop j,"For j in range(n): if j == i or j == i+1 skip else append numslist[j] to new","light_orange"
+Check sorted,"If new == sorted(new): return True","green"
+Continue,"If not sorted: continue loop to next adjacent pair","grey"
+End,"After finishing loop: return False","red"
